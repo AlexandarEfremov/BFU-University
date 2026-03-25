@@ -27,4 +27,5 @@ int main()
 	}
 
 	cout << "Total count: " << total_count << "\n";
+	return 0;
 } 
