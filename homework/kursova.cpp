@@ -3,25 +3,33 @@
 using std::cout;
 using std::cin;
 
-double factorial(double num)
-{
-	if (num == 0)
-	{
-		return 1;
-	}
-	else
-	{
-		return num * factorial(num - 1);
-	}
-}
+void validation_fail();
+double factorial(double num);
 
 int main()
 {
 	int x, n;
-	cout << "Въведете стойност за x: ";
-	cin >> x;
-	cout << "Въведете стойност за n (брой цикли): ";
-	cin >> n;
+	while (true)
+	{
+		cout << "Въведете стойност за x: ";
+		cin >> x;
+		if (cin.fail()) 
+		{
+			validation_fail();
+		}
+		else break;
+	}
+
+	while (true)
+	{
+		cout << "Въведете стойност за n (брой цикли): ";
+		cin >> n;
+		if (cin.fail()) 
+		{
+			validation_fail();
+		}
+		else break;
+	}
 
 	double sum = 0;
 
@@ -38,3 +46,23 @@ int main()
 
 	return 0;
 } 
+
+void validation_fail()
+{
+	cout << "Въведената стойност не е цяло число, моля опитайте пак" << "\n";
+	cin.clear();
+	cin.ignore(10000, '\n'); 
+}
+
+double factorial(double num)
+{
+	if (num == 0)
+	{
+		return 1;
+	}
+	else
+	{
+		return num * factorial(num - 1);
+	}
+}
+
