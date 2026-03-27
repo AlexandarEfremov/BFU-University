@@ -1,0 +1,100 @@
+@import url("reset.css");
+body {
+	background-color: #F0F6E8;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+/* HEADER START*/
+header {
+	background-color: #1A462A;
+}
+
+header .cd-color {
+	color: #9CD395;
+	font-weight: 900;
+	font-size: 1.2em;
+}
+
+header .f0-color {
+	color: #F0F6E8;
+	font-weight: 900;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.8em 4em;
+}
+
+header .company-contacts {
+	display: flex;
+	align-items: center;
+	gap: 1.7em;
+}
+
+header .company-name {
+	display: flex;
+	align-items: center;
+	gap: 0.7em;
+}
+
+header .company-contacts a {
+	text-decoration: none;
+	color: #F0F6E8;
+}
+
+i {
+	font-size: 1.4em;
+	color: #9CD395;
+}
+/* HEADER END*/
+
+
+
+/* MAIN START*/
+main nav {
+	display: flex;
+	padding: 0.4em 4em;
+	justify-content: space-between;
+	align-items: center;
+}
+
+main nav .right-nav,
+main nav .left-nav {
+	display: flex;
+	text-decoration: none;
+	gap: 0.6em;
+}
+
+main nav .left-nav a{
+	text-decoration: none;
+	color: #1A462A;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+main nav .right-nav i {
+	color: #1A462A;
+}
+
+main nav .right-nav .circle {
+	padding: 0.8em;
+	border-radius: 50%;
+	background-color: #9CD395;
+}
+
+main section.advert {
+	background-color: #DB8ADA;
+}
+
+main section.advert p {
+	text-align: center;
+	font-size: 1.2em;
+	padding: 0.5em 0em;
+	color: #5E2162;
+	font-weight: 700;
+}
+
+/* MAIN END*/
