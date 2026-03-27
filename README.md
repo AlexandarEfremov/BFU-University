@@ -1,2 +1,2 @@
-# Cpp-University
-Repository for C++ studies, homework etc.
+# BFU-University
+Repository for university studies, homework, projects etc.
