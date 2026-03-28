@@ -1,0 +1,47 @@
+/* HEADER START*/
+
+header {
+	background-color: #1A462A;
+}
+
+header .cd-color {
+	color: #9CD395;
+	font-weight: 900;
+	font-size: 1.2em;
+}
+
+header .f0-color {
+	color: #F0F6E8;
+	font-weight: 900;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.8em 4em;
+}
+
+header .company-contacts {
+	display: flex;
+	align-items: center;
+	gap: 1.7em;
+}
+
+header .company-name {
+	display: flex;
+	align-items: center;
+	gap: 0.7em;
+}
+
+header .company-contacts a {
+	text-decoration: none;
+	color: #F0F6E8;
+}
+
+i {
+	font-size: 1.4em;
+	color: #9CD395;
+}
+
+/* HEADER END*/
+

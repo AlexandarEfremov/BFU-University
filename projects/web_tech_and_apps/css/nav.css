@@ -1,0 +1,47 @@
+/* NAV START */
+
+.nav-container nav {
+	display: flex;
+	padding: 0.4em 4em;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-container nav .right-nav,
+.nav-container nav .left-nav {
+	display: flex;
+	text-decoration: none;
+	gap: 0.9em;
+}
+
+.nav-container nav .left-nav a{
+	text-decoration: none;
+	color: #1A462A;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+.nav-container nav .left-nav a:hover {
+	text-decoration: underline;
+}
+
+.nav-container nav .right-nav i {
+	color: #1A462A;
+}
+
+.nav-container nav .right-nav .circle {
+	padding: 0.8em;
+	border-radius: 50%;
+	background-color: #9CD395;
+	border: 2px solid transparent;
+}
+
+.nav-container nav .right-nav .circle:hover {
+	background-color: #9CD395;
+	cursor: pointer;
+	transition: 0.5;
+	border: 2px solid #1A462A;
+	transition: 0.3s;
+}
+
+/* NAV END */

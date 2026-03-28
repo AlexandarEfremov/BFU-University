@@ -1,102 +1,9 @@
 @import url("reset.css");
-body {
-	background-color: #F0F6E8;
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-}
-
-/* HEADER START*/
-header {
-	background-color: #1A462A;
-}
-
-header .cd-color {
-	color: #9CD395;
-	font-weight: 900;
-	font-size: 1.2em;
-}
-
-header .f0-color {
-	color: #F0F6E8;
-	font-weight: 900;
-}
-
-header {
-	display: flex;
-	justify-content: space-between;
-	padding: 0.8em 4em;
-}
-
-header .company-contacts {
-	display: flex;
-	align-items: center;
-	gap: 1.7em;
-}
-
-header .company-name {
-	display: flex;
-	align-items: center;
-	gap: 0.7em;
-}
-
-header .company-contacts a {
-	text-decoration: none;
-	color: #F0F6E8;
-}
-
-i {
-	font-size: 1.4em;
-	color: #9CD395;
-}
-/* HEADER END*/
-
-
+@import url("header.css");
+@import url("nav.css");
+@import url("footer.css");
 
 /* MAIN START*/
-main nav {
-	display: flex;
-	padding: 0.4em 4em;
-	justify-content: space-between;
-	align-items: center;
-}
-
-main nav .right-nav,
-main nav .left-nav {
-	display: flex;
-	text-decoration: none;
-	gap: 0.9em;
-}
-
-main nav .left-nav a{
-	text-decoration: none;
-	color: #1A462A;
-	font-size: 1.2em;
-	font-weight: 600;
-}
-
-main nav .left-nav a:hover {
-	text-decoration: underline;
-}
-
-main nav .right-nav i {
-	color: #1A462A;
-}
-
-main nav .right-nav .circle {
-	padding: 0.8em;
-	border-radius: 50%;
-	background-color: #9CD395;
-	border: 2px solid transparent;
-}
-
-main nav .right-nav .circle:hover {
-	background-color: #9CD395;
-	cursor: pointer;
-	transition: 0.5;
-	border: 2px solid #1A462A;
-	transition: 0.3s;
-}
 
 
 main section.advert {
@@ -132,12 +39,12 @@ main .main-content .head-button h2 {
 }
 
 main .main-content .head-button h1 {
-	font-size: 2.4em;
+	font-size: 3.4em;
 }
 
 main .main-content .head-button h2 {
 	font-weight: 300;
-	font-size: 1.6em;
+	font-size: 2.6em;
 }
 
 main .main-content .head-button h2:last-of-type {
@@ -145,6 +52,7 @@ main .main-content .head-button h2:last-of-type {
 }
 
 main .main-content .head-button a {
+	font-size: 1.2em;
 	display: block;
 	width: 50%;
 	margin: auto; 
@@ -161,65 +69,3 @@ main .main-content .head-button a:hover {
 	text-decoration: underline;
 }
 /* MAIN END*/
-
-
-/* FOOTER START */
-
-footer {
-	padding: 1.5em 4em;
-}
-
-footer .footer-top-cont {
-	display: flex;
-	justify-content: space-between;
-	padding: 2em 0;
-}
-
-footer .footer-top-cont .footer-contact,
-footer .footer-top-cont .footer-support,
-footer .footer-top-cont .footer-information,
-footer .footer-top-cont .footer-website {
-	display: flex;
-	flex-direction: column;
-}
-
-footer .footer-top-cont .footer-contact a,
-footer .footer-top-cont .footer-support a,
-footer .footer-top-cont .footer-information a,
-footer .footer-top-cont .footer-website a {
-	text-decoration: none;
-	color: #000;
-	line-height: 2.2em;
-}
-
-footer .footer-top-cont .footer-contact p i {
-	line-height: 2.2em;
-	margin-right: 0.6em;
-}
-
-footer .footer-top-cont .footer-support a:hover,
-footer .footer-top-cont .footer-information a:hover,
-footer .footer-top-cont .footer-website a:hover {
-	text-decoration: underline;
-}
-
-footer .footer-top-cont .bold-p {
-	font-size: 1.3em;
-	font-weight: 600;
-	margin-bottom: 0.5em;
-}
-
-footer .footer-bottom-cont {
-	width: 50%;
-	margin: auto;
-	padding: 1em 0;
-}
-
-footer .footer-bottom-cont * {
-	text-align: center;
-}
-
-footer .footer-bottom-cont h3 {
-	font-size: 1.2em;
-}
-/* FOOTER END */

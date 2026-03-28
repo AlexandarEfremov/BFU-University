@@ -1,0 +1,62 @@
+/* FOOTER START */
+
+footer {
+	padding: 1.5em 4em;
+}
+
+footer .footer-top-cont {
+	display: flex;
+	justify-content: space-between;
+	padding: 2em 0;
+}
+
+footer .footer-top-cont .footer-contact,
+footer .footer-top-cont .footer-support,
+footer .footer-top-cont .footer-information,
+footer .footer-top-cont .footer-website {
+	display: flex;
+	flex-direction: column;
+}
+
+footer .footer-top-cont .footer-contact a,
+footer .footer-top-cont .footer-support a,
+footer .footer-top-cont .footer-information a,
+footer .footer-top-cont .footer-website a {
+	text-decoration: none;
+	color: #000;
+	line-height: 2.2em;
+}
+
+footer .footer-top-cont .footer-contact p i {
+	line-height: 2.2em;
+	margin-right: 0.6em;
+}
+
+footer .footer-top-cont .footer-support a:hover,
+footer .footer-top-cont .footer-information a:hover,
+footer .footer-top-cont .footer-website a:hover {
+	text-decoration: underline;
+}
+
+footer .footer-top-cont .bold-p {
+	font-size: 1.3em;
+	font-weight: 600;
+	margin-bottom: 0.5em;
+}
+
+footer .footer-bottom-cont {
+	width: 50%;
+	margin: auto;
+	padding: 1em 0;
+}
+
+footer .footer-bottom-cont * {
+	text-align: center;
+}
+
+footer .footer-bottom-cont h3 {
+	font-size: 1.2em;
+}
+
+/* FOOTER END */
+
