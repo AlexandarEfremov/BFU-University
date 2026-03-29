@@ -6,4 +6,45 @@
 main {
 	background-color: #1A462A;
 	padding: 0.8em 4em;
+	padding-bottom: 13em;
+}
+
+main .welcome-cont {
+	display: flex;
+	align-items: center;
+	gap: 23em;
+}
+
+main .welcome-cont .head-content * {
+	text-align: center;
+	color: #BAD7B6;
+}
+
+main .welcome-cont .head-content h1 {
+	font-size 3.4em;
+}
+
+main .welcome-cont .head-content h2 {
+	font-size 2.6em;
+	font-weight: 300;
+}
+
+main .head-content {
+	left: 20em;
+}
+
+section .category-cont {
+	width: 100%;
+	position: absolute;
+	background-color: #BAD7B6;
+	border-top-right-radius: 65%;
+	border-top-left-radius: 65%;
+	bottom: 15em;
+}
+
+section .category-cont p.cat {
+	text-align: center;
+	padding: 1em;
+	font-size: 2.4em;
+	font-size: 900;
 }
