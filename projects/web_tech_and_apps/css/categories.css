@@ -6,7 +6,6 @@
 main {
 	background-color: #1A462A;
 	padding: 0.8em 4em;
-	padding-bottom: 30em;
 }
 
 main .welcome-cont {
@@ -30,16 +29,13 @@ main .welcome-cont .head-content h2 {
 }
 
 main .head-content {
-	left: 20em;
+	position: relative;
+	left: 3.5em;
 }
 
 section .category-cont {
 	width: 100%;
-	position: absolute;
 	background-color: #BAD7B6;
-	border-top-right-radius: 65%;
-	border-top-left-radius: 65%;
-	bottom: -1.8em;
 }
 
 section .category-cont p.cat {
