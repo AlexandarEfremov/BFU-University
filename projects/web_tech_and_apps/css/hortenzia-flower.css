@@ -1,0 +1,133 @@
+@import url("reset.css");
+@import url("header.css");
+@import url("nav.css");
+@import url("footer.css");
+
+main {
+	background-color: #1A462A;
+	padding: 0.8em 4em;
+}
+
+main .welcome-cont {
+	display: flex;
+	align-items: center;
+	gap: 23em;
+}
+
+main .welcome-cont .head-content * {
+	text-align: center;
+	color: #BAD7B6;
+}
+
+main .welcome-cont .head-content h1 {
+	font-size 3.4em;
+}
+
+main .head-content {
+	position: relative;
+	left: 3.5em;
+}
+
+main .head-content .flower-cat {
+	color: #4CAF50;
+}
+
+
+/* CATEGORY SECTION */
+
+section .category-cont {
+	width: 100%;
+	background-color: #BAD7B6;
+}
+
+section .category-cont p.cat {
+	text-align: center;
+	padding: 1.3em 2em 1.3em 2em;
+	font-size: 2.4em;
+	font-size: 900;
+}
+
+.sub-container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 60%;
+	gap: 2em;
+	margin: auto;
+	justify-content: space-between;
+	padding-bottom: 4em;
+}
+
+.flower-container {
+	width: 22em;
+	box-shadow: 5px 5px 15px -3px #000000;
+	margin: auto;
+}
+
+.flower-container .flower-image {
+	height: 22em;
+}
+
+
+.flower-container .flower-name {
+	background-color: #1A462A;
+}
+
+.flower-container .flower-name p,
+.flower-container .flower-name a {
+	text-align: center;
+	display: block;
+}
+
+.flower-container .flower-name p {
+	color: #BAD7B6;
+	font-size: 1.2em;
+	padding: 0.6em 0;
+}
+
+.flower-container .flower-name a {
+	color: #80A5D8;
+	padding-bottom: 1em;
+}
+
+.flower-container .flower-price {
+	background-color: #FFF;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 1.3em;
+}
+
+.flower-container .flower-price span {
+	font-size: 1.3em;
+}
+
+.flower-container .flower-price span:last-of-type {
+	font-size: 1.6em;
+	background-color: #FFA200;
+	padding: 0 1.2em;
+	border-radius: 5px;
+	box-shadow: 3px 3px 10px -3px #000000;
+}
+
+.flower-container .flower-price span:last-of-type:hover {
+	cursor: pointer;
+	background-color: #B37100;
+	color: white;
+	transition: 0.3s;
+}
+
+/* INFO CONTRAINER */
+
+.info-container {
+	background-color: #F0F6E8;
+	padding: 3em;
+	border-radius: 5px;
+}
+
+.info-container h4 {
+	font-size: 1.8em;
+}
+
+.info-container div {
+	margin-bottom: 2em;
+}

@@ -46,7 +46,6 @@ section .category-cont p.cat {
 }
 
 section .category-cont .container {
-	background-color: red;
 	width: 12em;
 	height: 12em;
 }
