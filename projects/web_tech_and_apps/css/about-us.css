@@ -1,0 +1,81 @@
+@import url("reset.css");
+@import url("header.css");
+@import url("nav.css");
+@import url("footer.css");
+
+main {
+	background-color: #1A462A;
+	padding: 0.8em 4em;
+}
+
+main .welcome-cont {
+	display: flex;
+	align-items: center;
+	gap: 23em;
+}
+
+main .welcome-cont .head-content * {
+	text-align: center;
+	color: #BAD7B6;
+}
+
+main .welcome-cont .head-content h1 {
+	font-size: 3.4em;
+}
+
+main .head-content {
+	position: relative;
+	left: 3.5em;
+}
+
+main .head-content .flower-cat {
+	color: #4CAF50;
+}
+
+
+/* SHOPPING SECTION */
+
+section .about-cont {
+	width: 100%;
+	padding: 3em 0;
+	background-color: #9CD395;
+  padding: 3em 24em;
+}
+
+.company-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.company-cont h1 {
+  font-size: 3em;
+}
+
+.about-cont p {
+  padding-bottom: 1.4em;
+}
+
+.about-cont h2 {
+  padding-bottom: 0.4em;
+}
+
+.about-cont ul {
+  padding-left: 2em;
+  padding-bottom: 2em;
+}
+
+.about-cont .img-cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-cont .img-cont img {
+  object-fit: cover;
+  border: 1px solid #1A462A;
+}
+
+.background-cont {
+  background-color: #F0F6E8;
+  padding: 3em;
+}
